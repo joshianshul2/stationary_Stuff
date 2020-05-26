@@ -73,16 +73,18 @@
 
 
 	<!-- Page info -->
-	<div class="page-top-info" style="background-image: url('{% static "./img/†.jpg" %}')";>
+	<div class="page-top-info" style="background-image: url('{% static "./img/qw6.jpg" %}')";>
 		<div class="container">
 
 
-			<h4>Your cart</h4>
+			<h4 style="font-family:'Noto Sans Carian'">Your cart</h4>
+
 			<div class="site-pagination">
 				<a href="">Home</a> /
 				<a href="">Your cart</a>
 			</div>
-
+<br>
+			<br>
 	</div>
 	<!-- Page info end -->
 
@@ -93,14 +95,14 @@
 			<div class="row">
 				<div class="col-lg-8">
 					<div class="cart-table">
-						<h3>Your Cart</h3>
+						<h3 style="font-family:'Chalkboard SE'">Your Cart</h3>
 						<div class="cart-table-warp">
 							<table>
 							<thead>
 								<tr>
 									<th class="product-th">Product</th>
 									<th class="quy-th">Quantity</th>
-									<th class="size-th">SizeSize</th>
+<!--									<th class="size-th">SizeSize</th>-->
 									<th class="total-th">Price</th>
 								</tr>
 							</thead>
@@ -108,64 +110,61 @@
 								<tr>
 									<td class="product-col">
 										{% load static %}
-                                        <img src="{% static 'img/cart/1.jpg' %}" alt="">
+										<img src="{% static './img/125.jpg' %}" alt="">
+										<div class="pc-title">
+											<h4>Maped Shaker Sharpner</h4>
+											<p>₹40</p>
+										</div>
+									</td>
+									<td class="quy-col">
+										<div class="quantity">
+					                        <div class="pro-qty">
+												<input type="text" value="1">
+											</div>
+                    					</div>
+									</td>
+									<td class="total-col">₹40</td>
+								</tr>
+								<tr>
+									<td class="product-col">
+										<img src="{% static './img/cam.jpg' %}" alt="">
+										<div class="pc-title">
+											<h4>Camel Exam Pencils</h4>
+											<p>₹45</p>
+										</div>
+									</td>
+									<td class="quy-col">
+										<div class="quantity">
+					                        <div class="pro-qty">
+												<input type="text" value="1">
+											</div>
+                    					</div>
+									</td>
+										<td class="total-col">₹45</td>
+								</tr>
+								<tr>
+									<td class="product-col">
+										<img src="{% static './img/h.jpg' %}" alt="">
+										<div class="pc-title">
+											<h4>Camel Sketching Pencil(Per Each)</h4>
+											<p>₹7</p>
+										</div>
+									</td>
+									<td class="quy-col">
+										<div class="quantity">
+					                        <div class="pro-qty">
+												<input type="text" value="1">
+											</div>
+                    					</div>
+									</td>
 
-										<div class="pc-title">
-											<h4>Animal Print Dress</h4>
-											<p>$45.90</p>
-										</div>
-									</td>
-									<td class="quy-col">
-										<div class="quantity">
-					                        <div class="pro-qty">
-												<input type="text" value="1">
-											</div>
-                    					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
-									<td class="total-col"><h4>$45.90</h4></td>
-								</tr>
-								<tr>
-									<td class="product-col">
-										<img src="{% static 'img/cart/2.jpg' %}" alt="">
-										<div class="pc-title">
-											<h4>Ruffle Pink Top</h4>
-											<p>$45.90</p>
-										</div>
-									</td>
-									<td class="quy-col">
-										<div class="quantity">
-					                        <div class="pro-qty">
-												<input type="text" value="1">
-											</div>
-                    					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
-									<td class="total-col"><h4>$45.90</h4></td>
-								</tr>
-								<tr>
-									<td class="product-col">
-										<img src="{% static 'img/cart/3.jpg' %}" alt="">
-										<div class="pc-title">
-											<h4>Skinny Jeans</h4>
-											<p>$45.90</p>
-										</div>
-									</td>
-									<td class="quy-col">
-										<div class="quantity">
-					                        <div class="pro-qty">
-												<input type="text" value="1">
-											</div>
-                    					</div>
-									</td>
-									<td class="size-col"><h4>Size M</h4></td>
-									<td class="total-col"><h4>$45.90</h4></td>
+									<td class="total-col">₹7</td>
 								</tr>
 							</tbody>
 						</table>
 						</div>
 						<div class="total-cost">
-							<h6>Total <span>$99.90</span></h6>
+							<h6>Total <span>₹92</span></h6>
 						</div>
 					</div>
 				</div>
@@ -176,8 +175,8 @@
 					<br>
 					<br>
 					<br>
-					<a href="" class="site-btn">Proceed to checkout</a>
-					<a href="" class="site-btn sb-dark">Continue shopping</a>
+					<a href="https://about.me/joshianshul" class="site-btn">Proceed to checkout</a>
+					<a href="/" class="site-btn sb-dark">Continue shopping</a>
 				</div>
 			</div>
 		</div>
@@ -190,7 +189,7 @@
 			<br>
 			<br>
 			<div class="section-title text-uppercase">
-				<h2>Continue Shopping</h2>
+				<a href="/"><h2>Continue Shopping</h2></a>
 			</div>
 			<div class="row">
 				<div class="col-lg-3 col-sm-6">
