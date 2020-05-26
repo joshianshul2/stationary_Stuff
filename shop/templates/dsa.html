@@ -1,0 +1,41 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>DSA</title>
+    <link rel="stylesheet" href="{% static 'css/bootstrap.min.css' %}"/>
+</head>
+{% load static %}
+<body style="background-image: url('{% static "./img/qw5.jpg" %}')"; >
+<div class="container" style="font-family: 'Comic Sans MS';">
+    <br>
+    <br>
+<h3 style=" color: indigo;" >Hello From DSA File</h3>
+    <h6 style=" color: black;">( Applied a sorting based on Names using Quick Sort )</h6>
+<br>
+    <br>
+<!-- For Loop in DSA File-->
+{% for student in dsa1 %}
+    Name : {{ student.name }}
+    <br>
+    Name : {{ student.name }}
+    <br>
+    E-Mail : {{ student.email}}
+    <br>
+    Subject : {{ student.subject}}
+    <br>
+    Message : {{ student.message}}
+
+            <h2>-----------------------------------------------------------------------------</h2>
+        {% endfor %}
+    <button  type="button" style="background-color:yellow;margin-left:auto;margin-right:auto;display:block;margin-top:10%;margin-bottom:0%">
+   <a href="/">logout</a>
+
+</button>
+</div>
+
+<br>
+<br>
+</body>
+</html>
