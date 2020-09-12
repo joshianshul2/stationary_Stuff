@@ -31,3 +31,4 @@ Technology:
 Design and Markup
 – HTML5, CSS3, JavaScript , jinja 2.0 for markup, design and interaction behavior – Bootstrap will be used for making the site responsive and as a framework. -Django web Server to Run the websites and Storing the data in AdminPage.
 - Programing Language Used –“ Python “.
+Anshul Joshi
